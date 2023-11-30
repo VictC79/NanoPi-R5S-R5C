@@ -40,7 +40,7 @@ svn co https://github.com/kenzok8/small/trunk/brook packages/net/brook
 svn co https://github.com/kenzok8/small/trunk/hysteria packages/net/hysteria
 svn co https://github.com/kenzok8/small-package/trunk/naiveproxy packages/net/naiveproxy
 svn co https://github.com/kenzok8/small/trunk/shadowsocksr-libev packages/net/shadowsocksr-libev
-svn co https://github.com/kenzok8/small/trunk/shadowsocksr-rust packages/net/shadowsocksr-rust
+svn co https://github.com/kenzok8/small/trunk/shadowsocks-rust packages/net/shadowsocks-rust
 #svn co https://github.com/kenzok8/small/trunk/shadowsocks-rust-sslocal packages/net/shadowsocks-rust-sslocal
 #svn co https://github.com/kenzok8/small/trunk/shadowsocks-rust-ssserver packages/net/shadowsocks-rust-ssserver
 #svn co https://github.com/kenzok8/small/trunk/shadowsocksr-libev-ssr-local packages/net/shadowsocksr-libev-ssr-local
