@@ -38,7 +38,7 @@ svn co https://github.com/kenzok8/small/trunk/microsocks packages/net/microsocks
 svn co https://github.com/kenzok8/small/trunk/tcping packages/net/tcping
 svn co https://github.com/kenzok8/small/trunk/brook packages/net/brook
 svn co https://github.com/kenzok8/small/trunk/hysteria packages/net/hysteria
-svn co https://github.com/VictC79/openwrt-passwall-packages/trunk/naiveproxy packages/net/naiveproxy
+svn co https://github.com/kenzok8/small/trunk/naiveproxy packages/net/naiveproxy
 svn co https://github.com/kenzok8/small/trunk/shadowsocksr-libev packages/net/shadowsocksr-libev
 svn co https://github.com/kenzok8/small/trunk/shadowsocks-rust packages/net/shadowsocks-rust
 #svn co https://github.com/kenzok8/small/trunk/shadowsocks-rust-sslocal packages/net/shadowsocks-rust-sslocal
