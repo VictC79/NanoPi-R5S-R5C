@@ -100,12 +100,12 @@ jobs:
       run: |
         cd $OPENWRTROOT
         echo -e "$(nproc) thread compile"
-        make tools/compile -j4 V=s$(nproc) || make tools/compile -j4 V=s$(nproc)
-        make toolchain/compile -j4 V=s$(nproc) || make toolchain/compile -j4 V=s$(nproc)
-        make target/compile -j4 V=s$(nproc) || make target/compile -j4 V=s$(nproc) IGNORE_ERRORS=1
+        make tools/compile -j2 V=s$(nproc) || make tools/compile -j2 V=s$(nproc)
+        make toolchain/compile -j2 V=s$(nproc) || make toolchain/compile -j2 V=s$(nproc)
+        make target/compile -j2 V=s$(nproc) || make target/compile -j2 V=s$(nproc) IGNORE_ERRORS=1
         make diffconfig
-        make package/compile -j4 V=s$(nproc) IGNORE_ERRORS=1 || make package/compile -j4 V=s$(nproc) IGNORE_ERRORS=1
-        make -j4 V=s package/index
+        make package/compile -j2 V=s$(nproc) IGNORE_ERRORS=1 || make package/compile -j2 V=s$(nproc) IGNORE_ERRORS=1
+        make -j2 V=s package/index
         cd $OPENWRTROOT/bin/packages/*
         PLATFORM=$(basename `pwd`)
         echo "PLATFORM=$PLATFORM" >> $GITHUB_ENV
